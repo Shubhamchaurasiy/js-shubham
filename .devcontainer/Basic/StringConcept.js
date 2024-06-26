@@ -10,4 +10,15 @@ for(let i=0;i<game.length;i++){
 console.log(game.length)
 console.log(game.__proto__)//to inherit properties from an object of JS classes defined with class 
 console.log(game.charAt(2))//check the elemenet which is in given posiiton
-console.log(game.indexOf(m))
+console.log(game.indexOf('M'))//check the given caharcater position in array
+//substring the string start form i and end in j-1
+const newString=game.substring(2,10)
+//if you given the starting position from minus then its start the reverse
+const otherstring=game.slice(-12,3)
+console.log(newString)
+console.log(otherstring)
+const firstname="shu%20bham"
+console.log(firstname.trim())//remove the unneccesary spaces
+console.log(firstname.replace('%20','#'))//replace where %20=#
+console.log(firstname.includes("am"))
+console.log(firstname.split())//try your self
